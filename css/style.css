@@ -584,6 +584,10 @@ footer {
    -------------------- */
 
 @media screen and (max-width: 31em) {
+  .main_img {
+    height: 65vh;
+  }
+
   .news-container,
   .grid-3-cols,
   .access_group {
@@ -627,16 +631,21 @@ footer {
     bottom: -6rem;
   }
 
+  .access-icon {
+    width: 1.9rem;
+    height: 1.9rem;
+    margin-right: 1.2rem;
+  }
+
   .access_item dt,
   .access_item dd {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .access_item dt {
-    padding-left: 3rem;
+    padding-left: 2.5rem;
   }
-
   .access_item dd {
-    padding-left: 5.2rem;
+    padding-left: 1.8rem;
   }
 }

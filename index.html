@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pone Luna_portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-inner">
+          <div class="logo_img">
+            <img src="img/Logo-img.png" alt="logo" />
+          </div>
+
+          <nav class="nav-menu">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#news">NEWS</a></li>
+              <li><a href="#menu">MENU</a></li>
+              <li><a href="#access">ACCESS</a></li>
+            </ul>
+          </nav>
+
+          <!-- Mobile Navigation -----------------  -->
+
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+
+          <!-- ------------------------------------ -->
+        </div>
+      </header>
+
+      <div class="main-image" id="mainvisual">
+        <img src="img/main-img.webp" alt="main_img" class="main_img" />
+      </div>
+
+      <section class="news-container" id="news">
+        <div class="section-title-container section-title-container-news">
+          <p class="section-title">........ <span>NEWS</span> ........</p>
+        </div>
+
+        <dl>
+          <div class="news-item">
+            <dt><a href="#">2025/07/10</a></dt>
+            <dd><a href="#">新作サンドイッチが登場しました。</a></dd>
+          </div>
+          <div class="news-item">
+            <dt><a href="#">2025/07/03</a></dt>
+            <dd><a href="#">冷たいドリンクでひと休みしませんか？</a></dd>
+          </div>
+          <div class="news-item">
+            <dt><a href="#">2025/07/01</a></dt>
+            <dd><a href="#">夏限定スイーツをぜひお試しください。</a></dd>
+          </div>
+          <div class="news-item">
+            <dt><a href="#">2025/06/25</a></dt>
+            <dd><a href="#">季節限定デザートのご紹介です。</a></dd>
+          </div>
+          <div class="news-item">
+            <dt><a href="#">2025/06/18</a></dt>
+            <dd><a href="#">人気のサンドイッチが新しくなりました。</a></dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="menu-container" id="menu">
+        <div class="section-title-container">
+          <p class="section-title">........ <span>MENU</span> ........</p>
+        </div>
+
+        <div class="grid-3-cols">
+          <figure class="menu-card">
+            <img src="img/food1.jpg" alt="Sandwich" />
+            <div class="menu-card-text">
+              <h3>Sandwich</h3>
+              <p class="jp">サーモンとアボカドの<br />クリームチーズサンド</p>
+              <p class="price">¥670（税込）</p>
+            </div>
+          </figure>
+          <figure class="menu-card">
+            <img src="img/food2.jpg" alt="Snack" />
+            <div class="menu-card-text">
+              <h3>Snack</h3>
+              <p class="jp">ポテトフライ</p>
+              <p class="price">¥480（税込）</p>
+            </div>
+          </figure>
+          <figure class="menu-card">
+            <img src="img/food3.jpg" alt="Desert" />
+            <div class="menu-card-text">
+              <h3>Desert</h3>
+              <p class="jp">苺の生ロールケーキ</p>
+              <p class="price">¥440（税込）</p>
+            </div>
+          </figure>
+          <figure class="menu-card">
+            <img src="img/drink1.jpg" alt="Ice Cafe latte" />
+            <div class="menu-card-text">
+              <h3>Drink</h3>
+              <p class="jp">アイスカフェラテ</p>
+              <p class="price">¥560（税込）</p>
+            </div>
+          </figure>
+          <figure class="menu-card">
+            <img src="img/drink2.jpg" alt="Lemonade" />
+            <div class="menu-card-text">
+              <h3>Drink</h3>
+              <p class="jp">レモネード</p>
+              <p class="price">¥540（税込）</p>
+            </div>
+          </figure>
+          <figure class="menu-card">
+            <img src="img/drink3.jpg" alt="Hot Coffee" />
+            <div class="menu-card-text">
+              <h3>Drink</h3>
+              <p class="jp">ホットコーヒー</p>
+              <p class="price">¥480（税込）</p>
+            </div>
+          </figure>
+
+          <div class="menu-btn">
+            <button class="btn-shadow">VIEW MORE</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="access-container" id="access">
+        <div class="section-title-container">
+          <p class="section-title">........ <span>ACCESS</span> ........</p>
+        </div>
+        <address>
+          <dl class="access_group">
+            <div class="access_item">
+              <dt>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="access-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                  />
+                </svg>
+
+                住所
+              </dt>
+              <dd>&#12306; 171‑0014<br />東京都豊島区池袋1-2-3</dd>
+            </div>
+            <div class="access_item">
+              <dt>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="access-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                  />
+                </svg>
+
+                電話番号
+              </dt>
+              <dd><a href="tel:03-1111-2222">03-1111-2222</a></dd>
+            </div>
+            <div class="access_item">
+              <dt>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="access-icon"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                  />
+                </svg>
+                メールアドレス
+              </dt>
+              <dd>
+                <a href="mailto:pone_luna@poneluna.com"
+                  >pone_luna@poneluna.com</a
+                >
+              </dd>
+            </div>
+          </dl>
+        </address>
+
+        <iframe
+          class="access-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51822.08660185059!2d139.7150842!3d35.7291595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d68974de2e9%3A0x4049becbb713f81d!2z5p2x5Lqs6YO96LGK5bO25Yy6!5e0!3m2!1sja!2sjp!4v1752115450588!5m2!1sja!2sjp"
+          title="Store Location Map"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <footer>&copy;Pane Luna</footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      const btnMobileNav = document.querySelector(".btn-mobile-nav");
+
+      btnMobileNav.addEventListener("click", () => {
+        document.body.classList.toggle("nav-open");
+      });
+
+      const navLinks = document.querySelectorAll(".nav-menu a");
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          document.body.classList.remove("nav-open");
+        });
+      });
+    </script>
+  </body>
+</html>

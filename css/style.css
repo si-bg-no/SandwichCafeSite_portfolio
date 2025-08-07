@@ -251,7 +251,7 @@ section {
 
 .menu-card {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
-  border-radius: 1.2px;
+  border-radius: 12px;
   text-align: center;
   margin-bottom: 4rem;
 }
@@ -576,5 +576,67 @@ footer {
 
   .access-map {
     max-width: 75%;
+  }
+}
+
+/* --------------------
+    Responsive: 500px
+   -------------------- */
+
+@media screen and (max-width: 31em) {
+  .news-container,
+  .grid-3-cols,
+  .access_group {
+    max-width: 85%;
+  }
+
+  #news .news-item dt {
+    font-size: 1.4rem;
+    width: 30%;
+    padding-left: 3rem;
+  }
+
+  #news .news-item dd {
+    font-size: 1.3rem;
+    width: 70%;
+    padding-left: 2rem;
+  }
+
+  .grid-3-cols {
+    gap: 2.5rem;
+  }
+
+  .menu-card {
+    margin-bottom: 2rem;
+  }
+
+  .menu-card-text h3,
+  .menu-card-text p {
+    margin-bottom: 1.3rem;
+  }
+
+  .menu-card-text h3 {
+    font-size: 1.7rem;
+  }
+
+  .menu-card-text p {
+    font-size: 1.4rem;
+  }
+  .menu-btn {
+    right: -1.5rem;
+    bottom: -6rem;
+  }
+
+  .access_item dt,
+  .access_item dd {
+    font-size: 1.5rem;
+  }
+
+  .access_item dt {
+    padding-left: 3rem;
+  }
+
+  .access_item dd {
+    padding-left: 5.2rem;
   }
 }
